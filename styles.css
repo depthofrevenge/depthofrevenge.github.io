@@ -1,0 +1,62 @@
+/*	red: 			#8e3d38
+	light green:	#77eea5
+	green:			#139847
+	bright green:	#1ce368
+	black:			#141414
+*/
+* {
+	font-family: Arial Black !important;
+}
+small {
+	color: #77eea5 !important;
+}
+blockquote {
+	border-color: #77eea5;
+} blockquote footer {
+	color: #77eea5;
+} .light, lead, b {
+	color: #77eea5;
+} .sub-icon {
+	width: 200px;
+} body {
+	background-color: #141414;
+	color: #139847;
+	font-family: Bookman;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+} #cover {
+	display: block;
+	margin: 0 auto;
+	width: 25vw;
+	border-radius: 1vw;
+	box-shadow: 4px 4px 4px #333;
+} #cover:hover {
+	box-shadow: 6px 6px 6px #666;
+} hr {
+	border: 2px inset #139847;
+} ::selection {
+	color: #fff;
+	background-color: #139847;
+} ::-moz-selection {
+	color: #fff;
+	background-color: #139847;	
+} a {
+	color: #1ce368;
+	padding: 5px;
+	text-decoration: none;
+} a:hover, a:active, a:focus {
+	color: #77eea5;
+	text-decoration: underline;
+} img {	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	user-drag: none; 
+	-webkit-user-drag: none;
+}
+
+.sub-icon { transition: all .2s ease-in-out; }
+.sub-icon:hover { transform: scale(1.1); }
+
