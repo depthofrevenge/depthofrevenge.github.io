@@ -1,4 +1,4 @@
-# Depth of Revenge
+# Depth of Revenge <img src="img/sub-icon.svg" width="128px">
 
 ## Repo for <a href="http://depthofrevenge.com/">depthofrevenge.com</a> website
 
