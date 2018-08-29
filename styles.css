@@ -12,6 +12,7 @@ small {
 }
 blockquote {
 	border-color: #77eea5;
+	text-align: left !important;
 } blockquote footer {
 	color: #77eea5;
 } .light, lead, b {
