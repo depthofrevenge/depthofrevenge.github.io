@@ -58,6 +58,11 @@ blockquote {
 	-webkit-user-drag: none;
 }
 
+/*sharethis*/
+.st-btn {
+  background-color: #139847 !important;
+}
+
 .sub-icon { transition: all .2s ease-in-out; }
 .sub-icon:hover { transform: scale(1.1); }
 
