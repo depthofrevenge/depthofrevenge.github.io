@@ -67,6 +67,9 @@ blockquote {
 .st-btn {
   background-color: #139847 !important;
 }
+.st-total {
+	color: #139847 !important;
+}
 
 /*sub icon*/
 .sub-icon {
