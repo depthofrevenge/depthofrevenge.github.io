@@ -44,7 +44,7 @@ blockquote {
 	background-color: #139847;
 } ::-moz-selection {
 	color: #fff;
-	background-color: #139847;	
+	background-color: #139847;
 } a {
 	color: #1ce368;
 	padding: 10px;
@@ -54,6 +54,9 @@ blockquote {
 	background-color: #141414;
 	color: #77eea5;
 	text-decoration: none;
+} blockquote a:hover {
+	background-color: transparent;
+	text-decoration: underline;
 } img {	
 	-webkit-user-select: none;
 	-moz-user-select: none;
