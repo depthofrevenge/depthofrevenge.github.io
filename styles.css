@@ -50,7 +50,7 @@ blockquote {
 	padding: 10px;
 	text-decoration: none;
 	border-radius: 5px;
-} a:hover, a:active, a:focus {
+} a:hover:not(a .sub-icon), a:active, a:focus {
 	background-color: #141414;
 	color: #77eea5;
 	text-decoration: none;
