@@ -1,5 +1,6 @@
 
 :root {
+	--white: #fff;
 	--red: #8e3d38;
 	--green: #139847;
 	--bright green: #1ce368;
@@ -53,11 +54,11 @@ hr {
 	border: 2px inset var(--green);
 }
 ::selection {
-	color: #fff;
+	color: var(--white);
 	background-color: var(--green);
 }
 ::-moz-selection {
-	color: #fff;
+	color: var(--white);
 	background-color: var(--green);
 }
 a {
