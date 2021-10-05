@@ -1,9 +1,8 @@
-
 :root {
 	--white: #fff;
-	--red: #8e3d38;
-	--green: #139847;
-	--bright green: #1ce368;
+	--red: #ef2530;
+	/* --green: #139847; */
+	/* --bright-green: #1ce368; */
 	--black: #141414;
 	--light-green: #77eea5;
 }
@@ -12,20 +11,20 @@
 }
 h1,
 small {
-	color: var(--light-green) !important;
+	color: var(--white) !important;
 }
 blockquote {
-	border-color: var(--light-green);
+	border-color: var(--white);
 	text-align: left !important;
 	background-color: var(--black);
 }
 blockquote footer {
-	color: var(--light-green);
+	color: var(--white);
 }
 .light,
 lead,
 b {
-	color: var(--light-green);
+	color: var(--white);
 }
 .sub-icon {
 	width: 200px;
@@ -33,7 +32,7 @@ b {
 body {
 	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
 	background-color: var(--black);
-	color: var(--green);
+	color: var(--light-green);
 	font-family: Bookman;
 	text-align: center;
 	margin: 5px;
@@ -51,28 +50,27 @@ body {
 	box-shadow: 6px 6px 4px #666;
 }
 hr {
-	border: 2px inset var(--green);
+	border: 2px inset var(--light-green);
 }
 ::selection {
 	color: var(--white);
-	background-color: var(--green);
+	background-color: var(--light-green);
 }
 ::-moz-selection {
 	color: var(--white);
-	background-color: var(--green);
+	background-color: var(--light-green);
 }
 a {
-	color: var(--bright-green);
-	padding: 10px;
+	color: var(--white);
+	padding: 5px;
 	text-decoration: none;
 	border-radius: 5px;
 }
 a:hover:not(a .sub-icon),
 a:active,
 a:focus {
-	background-color: var(--black);
-	color: var(--light-green);
-	text-decoration: none;
+	color: var(--white);
+	text-decoration: underline;
 }
 blockquote a:hover {
 	background-color: transparent;
@@ -89,10 +87,10 @@ img {
 
 /*sharethis*/
 .st-btn {
-	background-color: var(--green) !important;
+	background-color: var(--light-green) !important;
 }
 .st-total {
-	color: var(--green) !important;
+	color: var(--light-green) !important;
 }
 
 /*sub icon*/
