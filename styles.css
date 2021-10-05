@@ -7,68 +7,86 @@
 * {
 	font-family: Arial Black !important;
 }
-h1,small {
+h1,
+small {
 	color: #77eea5 !important;
 }
 blockquote {
 	border-color: #77eea5;
 	text-align: left !important;
 	background-color: #141414;
-} blockquote footer {
+}
+blockquote footer {
 	color: #77eea5;
-} .light, lead, b {
+}
+.light,
+lead,
+b {
 	color: #77eea5;
-} .sub-icon {
+}
+.sub-icon {
 	width: 200px;
-} body {
-	background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%);
+}
+body {
+	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
 	background-color: #141414;
 	color: #139847;
 	font-family: Bookman;
 	text-align: center;
 	margin: 5px;
 	padding: 5px;
-} #cover {
+}
+#cover {
 	display: block;
 	margin: 0 auto;
 	width: 25vw;
 	border-radius: 1vw;
 	cursor: pointer;
 	box-shadow: 8px 4px 4px #141414;
-} #cover:hover {
+}
+#cover:hover {
 	box-shadow: 6px 6px 4px #666;
-} hr {
+}
+hr {
 	border: 2px inset #139847;
-} ::selection {
+}
+::selection {
 	color: #fff;
 	background-color: #139847;
-} ::-moz-selection {
+}
+::-moz-selection {
 	color: #fff;
 	background-color: #139847;
-} a {
+}
+a {
 	color: #1ce368;
 	padding: 10px;
 	text-decoration: none;
 	border-radius: 5px;
-} a:hover:not(a .sub-icon), a:active, a:focus {
+}
+a:hover:not(a .sub-icon),
+a:active,
+a:focus {
 	background-color: #141414;
 	color: #77eea5;
 	text-decoration: none;
-} blockquote a:hover {
+}
+blockquote a:hover {
 	background-color: transparent;
 	text-decoration: underline;
-} img {	
+}
+img {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	user-drag: none; 
+	user-drag: none;
 	-webkit-user-drag: none;
 }
 
 /*sharethis*/
 .st-btn {
-  background-color: #139847 !important;
+	background-color: #139847 !important;
 }
 .st-total {
 	color: #139847 !important;
@@ -76,7 +94,7 @@ blockquote {
 
 /*sub icon*/
 .sub-icon {
-	transition: all .2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	border-radius: 25%;
 }
 .sub-icon:hover {
