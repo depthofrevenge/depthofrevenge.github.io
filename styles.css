@@ -3,7 +3,7 @@
 	--red: #ef2530;
 	--black: #141414;
 	--gray: #666;
-	--light-gray: #999;
+	--light-gray: #ddd;
 	--green: #4bd680;
 	--light-green: #8de6af;
 }
@@ -43,6 +43,11 @@ lead,
 	margin-top: 8rem;
 	margin-bottom: 2rem;
 }
+#links a {
+	display: block;
+	font-size: 2rem;
+	margin-top: 4rem;
+}
 blockquote lead {
 	margin-bottom: 1rem;
 	font-size: 2.5rem;
@@ -53,21 +58,10 @@ blockquote lead {
 body {
 	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
 	background-color: var(--black);
-	color: var(--light-green);
+	color: var(--light-gray);
 	font-family: Bookman;
 	text-align: center;
 	margin: 2rem;
-}
-#cover {
-	display: block;
-	margin: 0 auto;
-	width: 25vw;
-	border-radius: 1vw;
-	cursor: pointer;
-	box-shadow: 6px 6px 0px var(--gray);
-}
-#cover:hover {
-	box-shadow: 6px 6px 0px var(--light-gray);
 }
 hr {
 	border: 1px solid var(--green);
