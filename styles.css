@@ -2,10 +2,15 @@
 	--white: #fff;
 	--red: #ef2530;
 	--black: #141414;
+	--gray: #666;
+	--light-gray: #999;
 	--green: #4bd680;
 }
 * {
 	font-family: Arial Black !important;
+}
+h1 {
+	font-size: 4rem;
 }
 h1,
 small {
@@ -23,6 +28,9 @@ blockquote footer {
 lead,
 b {
 	color: var(--white);
+}
+lead {
+	font-size: 2.5rem;
 }
 .sub-icon {
 	width: 200px;
@@ -42,13 +50,14 @@ body {
 	width: 25vw;
 	border-radius: 1vw;
 	cursor: pointer;
-	box-shadow: 8px 4px 4px var(--black);
+	box-shadow: 6px 6px 0px var(--gray);
 }
 #cover:hover {
-	box-shadow: 6px 6px 4px #666;
+	box-shadow: 6px 6px 0px var(--light-gray);
 }
 hr {
-	border: 2px inset var(--green);
+	border: 1px solid var(--green);
+	background-color: var(--green);
 }
 ::selection {
 	color: var(--white);
