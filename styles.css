@@ -1,10 +1,8 @@
 :root {
 	--white: #fff;
 	--red: #ef2530;
-	/* --green: #139847; */
-	/* --bright-green: #1ce368; */
 	--black: #141414;
-	--light-green: #77eea5;
+	--green: #4bd680;
 }
 * {
 	font-family: Arial Black !important;
@@ -32,7 +30,7 @@ b {
 body {
 	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
 	background-color: var(--black);
-	color: var(--light-green);
+	color: var(--green);
 	font-family: Bookman;
 	text-align: center;
 	margin: 5px;
@@ -50,15 +48,15 @@ body {
 	box-shadow: 6px 6px 4px #666;
 }
 hr {
-	border: 2px inset var(--light-green);
+	border: 2px inset var(--green);
 }
 ::selection {
 	color: var(--white);
-	background-color: var(--light-green);
+	background-color: var(--green);
 }
 ::-moz-selection {
 	color: var(--white);
-	background-color: var(--light-green);
+	background-color: var(--green);
 }
 a {
 	color: var(--white);
@@ -87,10 +85,10 @@ img {
 
 /*sharethis*/
 .st-btn {
-	background-color: var(--light-green) !important;
+	background-color: var(--green) !important;
 }
 .st-total {
-	color: var(--light-green) !important;
+	color: var(--green) !important;
 }
 
 /*sub icon*/
