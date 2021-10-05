@@ -5,6 +5,7 @@
 	--gray: #666;
 	--light-gray: #999;
 	--green: #4bd680;
+	--light-green: #8de6af;
 }
 *,
 h2,
@@ -29,27 +30,33 @@ blockquote {
 	background-color: var(--black);
 }
 blockquote footer {
+	margin-top: 0.5rem;
 	color: var(--white);
 }
 .light,
 lead,
-b {
+#faq-section h3 {
+	font-family: Arial Black !important;
 	color: var(--white);
 }
-lead {
+#faq-section h3 {
+	margin-top: 8rem;
+	margin-bottom: 2rem;
+}
+blockquote lead {
+	margin-bottom: 1rem;
 	font-size: 2.5rem;
 }
 .sub-icon {
-	width: 200px;
+	width: 16rem;
 }
 body {
 	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
 	background-color: var(--black);
-	color: var(--green);
+	color: var(--light-green);
 	font-family: Bookman;
 	text-align: center;
-	margin: 5px;
-	padding: 5px;
+	margin: 2rem;
 }
 #cover {
 	display: block;
@@ -67,19 +74,16 @@ hr {
 	background-color: var(--green);
 }
 ::selection {
-	color: var(--white);
-	background-color: var(--green);
+	background-color: var(--gray);
 }
 ::-moz-selection {
-	color: var(--white);
-	background-color: var(--green);
+	background-color: var(--gray);
 }
 a {
 	font-family: Arial Black;
 	color: var(--white);
-	padding: 5px;
+	padding: 0.25rem;
 	text-decoration: none;
-	border-radius: 5px;
 }
 a:hover:not(a .sub-icon),
 a:active,
