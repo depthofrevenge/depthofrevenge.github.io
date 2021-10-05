@@ -6,10 +6,16 @@
 	--light-gray: #999;
 	--green: #4bd680;
 }
-* {
-	font-family: Arial Black !important;
+*,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Arial;
 }
 h1 {
+	font-family: Arial Black;
 	font-size: 4rem;
 }
 h1,
@@ -17,6 +23,7 @@ small {
 	color: var(--white) !important;
 }
 blockquote {
+	margin-top: 2rem;
 	border-color: var(--white);
 	text-align: left !important;
 	background-color: var(--black);
@@ -68,6 +75,7 @@ hr {
 	background-color: var(--green);
 }
 a {
+	font-family: Arial Black;
 	color: var(--white);
 	padding: 5px;
 	text-decoration: none;
@@ -82,6 +90,9 @@ a:focus {
 blockquote a:hover {
 	background-color: transparent;
 	text-decoration: underline;
+}
+footer a {
+	margin-right: 1.5rem;
 }
 img {
 	-webkit-user-select: none;
