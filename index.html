@@ -52,7 +52,8 @@ http://a.co/cmfluSo
 <footer>Tim H. Rasmussen</footer>
 </blockquote>
 
-<img id="cover" src="img/webcover.jpg" onclick="window.open('https://www.amazon.com/Depth-Revenge-Novel-Richard-Golden/dp/1440115257/ref=ed_oe_p');">
+<script src="https://3dbook.xyz/api/books/615cb09c9f645a00176365f1/cover.js"></script>
+
 <br>
 
 <blockquote>
@@ -91,6 +92,13 @@ http://a.co/cmfluSo
   gtag('js', new Date());
 
   gtag('config', 'UA-104632692-4');
+</script>
+
+<script>
+	// remove 3dbook.xyz in img
+	window.onload = function() {
+		document.querySelector('.book img').src = 'img/webcover.jpg';
+	}
 </script>
 
 </body>
