@@ -1,36 +1,38 @@
-/*	red: 			#8e3d38
-	light green:	#77eea5
-	green:			#139847
-	bright green:	#1ce368
-	black:			#141414
-*/
+
+:root {
+	--red: #8e3d38;
+	--green: #139847;
+	--bright green: #1ce368;
+	--black: #141414;
+	--light-green: #77eea5;
+}
 * {
 	font-family: Arial Black !important;
 }
 h1,
 small {
-	color: #77eea5 !important;
+	color: var(--light-green) !important;
 }
 blockquote {
-	border-color: #77eea5;
+	border-color: var(--light-green);
 	text-align: left !important;
-	background-color: #141414;
+	background-color: var(--black);
 }
 blockquote footer {
-	color: #77eea5;
+	color: var(--light-green);
 }
 .light,
 lead,
 b {
-	color: #77eea5;
+	color: var(--light-green);
 }
 .sub-icon {
 	width: 200px;
 }
 body {
 	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
-	background-color: #141414;
-	color: #139847;
+	background-color: var(--black);
+	color: var(--green);
 	font-family: Bookman;
 	text-align: center;
 	margin: 5px;
@@ -42,24 +44,24 @@ body {
 	width: 25vw;
 	border-radius: 1vw;
 	cursor: pointer;
-	box-shadow: 8px 4px 4px #141414;
+	box-shadow: 8px 4px 4px var(--black);
 }
 #cover:hover {
 	box-shadow: 6px 6px 4px #666;
 }
 hr {
-	border: 2px inset #139847;
+	border: 2px inset var(--green);
 }
 ::selection {
 	color: #fff;
-	background-color: #139847;
+	background-color: var(--green);
 }
 ::-moz-selection {
 	color: #fff;
-	background-color: #139847;
+	background-color: var(--green);
 }
 a {
-	color: #1ce368;
+	color: var(--bright-green);
 	padding: 10px;
 	text-decoration: none;
 	border-radius: 5px;
@@ -67,8 +69,8 @@ a {
 a:hover:not(a .sub-icon),
 a:active,
 a:focus {
-	background-color: #141414;
-	color: #77eea5;
+	background-color: var(--black);
+	color: var(--light-green);
 	text-decoration: none;
 }
 blockquote a:hover {
@@ -86,10 +88,10 @@ img {
 
 /*sharethis*/
 .st-btn {
-	background-color: #139847 !important;
+	background-color: var(--green) !important;
 }
 .st-total {
-	color: #139847 !important;
+	color: var(--green) !important;
 }
 
 /*sub icon*/
