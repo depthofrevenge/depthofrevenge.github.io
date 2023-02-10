@@ -1,3 +1,4 @@
+/* Basics */
 :root {
 	--white: #fff;
 	--red: #ef2530;
@@ -7,90 +8,11 @@
 	--green: #4bd680;
 	--light-green: #8de6af;
 }
-*,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: Arial;
-}
-h1 {
-	font-family: Arial Black;
-	font-size: 4rem;
-}
-h1,
-small {
-	color: var(--white) !important;
-}
-blockquote {
-	margin-top: 2rem;
-	border-color: var(--white);
-	text-align: left !important;
-	background-color: var(--black);
-}
-blockquote footer {
-	margin-top: 0.5rem;
-	color: var(--white);
-}
-.light,
-lead,
-#faq-section h3 {
-	font-family: Arial Black !important;
-	color: var(--white);
-}
-#faq-section h3 {
-	margin-top: 8rem;
-	margin-bottom: 2rem;
-}
-#links a {
-	display: block;
-	font-size: 2rem;
-	margin-top: 4rem;
-}
-blockquote lead {
-	margin-bottom: 1rem;
-	font-size: 2.5rem;
-}
-.sub-icon {
-	width: 16rem;
-}
-body {
-	/* background: linear-gradient(45deg, rgba(20,20,20,0.25) 0%, rgba(19,152,71,0.25) 35%, rgba(119,238,165,0.25) 100%); */
-	background-color: var(--black);
-	color: var(--light-gray);
-	font-family: Bookman;
-	text-align: center;
-	margin: 2rem;
-}
-hr {
-	border: 1px solid var(--green);
-	background-color: var(--green);
-}
 ::selection {
 	background-color: var(--gray);
 }
 ::-moz-selection {
 	background-color: var(--gray);
-}
-a {
-	font-family: Arial Black;
-	color: var(--white);
-	padding: 0.25rem;
-	text-decoration: none;
-}
-a:hover:not(a .sub-icon),
-a:active,
-a:focus {
-	color: var(--white);
-	text-decoration: underline;
-}
-blockquote a:hover {
-	background-color: transparent;
-	text-decoration: underline;
-}
-footer a {
-	margin-right: 1.5rem;
 }
 img {
 	-webkit-user-select: none;
@@ -101,7 +23,128 @@ img {
 	-webkit-user-drag: none;
 }
 
-/*sharethis*/
+/* Body and type */
+body {
+	min-height: 100vh;
+	/* background: linear-gradient(180deg, #4bd68033 0%, #000 100%); */
+	background-color: var(--black);
+	color: var(--light-gray);
+}
+hr {
+	border: 1px solid var(--green);
+	background-color: var(--green);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+header {
+	text-align: center;
+}
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Arial;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+h1 {
+	font-weight: 800;
+	font-size: 2.5rem;
+	letter-spacing: 0.1rem;
+	color: var(--white);
+}
+h2,
+h3 {
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+h4,
+h5 {
+	font-weight: 300;
+	font-size: 1.25rem;
+}
+.author {
+	font-weight: 300;
+}
+a {
+	font-weight: 800;
+	color: var(--white);
+	padding: 0.25rem;
+	text-decoration: none;
+}
+a:hover:not(a .sub-icon),
+a:active,
+a:focus {
+	text-decoration: underline;
+	color: var(--white);
+}
+.return-homepage {
+	display: block;
+	text-align: center;
+}
+.return-homepage img {
+	margin-right: 0.25rem;
+}
+
+/* Blockquote */
+blockquote {
+	margin-top: 2rem;
+	border-left: 0.25rem solid var(--white);
+	padding-left: 1rem;
+}
+blockquote footer {
+	margin-top: 1rem;
+	font-size: 0.875rem;
+	text-align: left;
+}
+blockquote lead {
+	display: inline-block;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 800;
+	color: var(--white);
+
+}
+
+/* Faq page */
+#faq-section h3 {
+	font-weight: 800;
+	color: var(--white);
+}
+#faq-section h3 {
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+/* Links page */
+#links a {
+	display: block;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	font-weight: 700;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+}
+footer a {
+	display: inline-block;
+	margin-top: 0.5rem;
+	margin-right: 1.5rem;
+}
+
+/* Sharethis */
 .st-btn {
 	background-color: var(--green) !important;
 }
@@ -109,11 +152,43 @@ img {
 	color: var(--green) !important;
 }
 
-/*sub icon*/
+/* Sub icon */
 .sub-icon {
+	margin-top: 1rem;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 12rem;
 	transition: all 0.2s ease-in-out;
-	border-radius: 25%;
 }
 .sub-icon:hover {
 	transform: scale(1.1);
+}
+
+/* Body container */
+body {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 640px) {
+	body {
+		width: 640px;
+	}
+}
+@media (min-width: 768px) {
+	body {
+		width: 768px;
+	}
+}
+@media (min-width: 1080px) {
+	body {
+		width: 1080px;
+	}
+}
+@media (min-width: 1200px) {
+	body {
+		width: 1200px;
+	}
 }
